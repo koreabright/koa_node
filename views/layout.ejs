@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+	<%- include('./header.ejs') %>
+	<% var page = './pages/' + pagename + '.ejs' %>
+	<%- include(page) %>
+	<%- include('./footer.ejs') %>
+</body>
+</html>
+
